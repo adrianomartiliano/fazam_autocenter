@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.depoimentos{
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+}
