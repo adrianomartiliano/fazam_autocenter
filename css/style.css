@@ -3,8 +3,63 @@
     padding: 0;
 }
 
-.depoimentos{
+section{
+    margin: 40px auto;
+    width: 1000px;
+}
+.center{
     width: 100%;
-    height: 600px;
-    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+/*--------------SOBRE NÓS-------------------*/
+.box-sobre-nos{
+    max-width: 300px;
+    text-align: center;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.336);
+}
+.sobre-nos{width: 80%;}
+/*--------------FIM SOBRE NÓS-------------------*/
+
+.contato{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #b10e11;
+    text-align: center;
+}
+.box-contato{
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.box-contato a{
+    font-size: 30px;
+    color: #b10e11;
+}
+
+footer{
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    section{
+        width: 100%;
+    }
+    .center{
+        display: inline-block;
+    }
+    .box-sobre-nos{
+        margin: 15px auto;
+        width: 80%;
+    }
+    .conteudo-footer{
+        width: 100%;
+    }
+
 }
