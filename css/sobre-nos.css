@@ -1,0 +1,22 @@
+.box-sobre-nos{
+    max-width: 350px;
+    width: 90%;
+    text-align: center;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.336);
+}
+.sobre-nos{
+    width: 70%;
+    margin: 40px auto;
+}
+
+@media (max-width: 768px){
+    .box-sobre-nos{
+        margin: 15px auto;
+        width: 100%;
+    }
+}

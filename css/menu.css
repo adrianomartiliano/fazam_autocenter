@@ -3,7 +3,7 @@ body, ul{
     padding: 0;
 }
 section .menu{
-    border-bottom: 10px solid #b10e11;
+    border-bottom: 0 solid #b10e11;
 }
 a {
     color: black;
